@@ -38,5 +38,9 @@ Create Auto Scaling group
 Átállítottam a AS min/max-ot - elindultak a szerverek
 <img width="1070" height="439" alt="Képernyőfotó 2026-07-25 - 0 02 31" src="https://github.com/user-attachments/assets/27a9a76e-f100-4d87-8898-577097af84a7" />
 
-További még két szervert indítottam el - de itt is az a problémám hogy nem állítja le az ASG. Ha kikapcsolom akkor újra indít, az itt is működik. 
+További még két szervert indítottam el - de itt is az a problémám hogy nem állítja le az ASG. 
 <img width="1058" height="457" alt="Képernyőfotó 2026-07-25 - 0 03 18" src="https://github.com/user-attachments/assets/0480bb0f-2de7-490b-9498-d90a28e01c9b" />
+
+Ha kikapcsolom akkor újra indít, az itt is működik. 
+<img width="1043" height="278" alt="Képernyőfotó 2026-07-25 - 0 13 20" src="https://github.com/user-attachments/assets/a1bd9527-7548-414f-84df-28f1b3061cab" />
+
