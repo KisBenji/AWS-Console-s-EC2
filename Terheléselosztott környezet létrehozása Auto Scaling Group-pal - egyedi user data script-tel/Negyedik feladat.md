@@ -1,1 +1,14 @@
-
+- EC2 → Launch Templates → Create launch template
+  - Standard (AWS által adott) AMI kiválasztása
+  - Instance type, security group, key pair megadása
+  - Advanced Network Settings → Auto-assign public IP → Enable
+  - User data script megadása (bootstrap/telepítés induláskor)
+- EC2 → Target Groups → Create target group (health check beállítása)
+- EC2 → Load Balancers → Create load balancer (ALB/NLB) → target group hozzárendelése
+- EC2 → Auto Scaling Groups → Create Auto Scaling group
+  - Launch template kiválasztása
+  - VPC + subnetek megadása
+  - Existing load balancer target group csatolása
+  - Min/Max/Desired capacity beállítása
+  - Scaling policy beállítása
+- Create Auto Scaling group
