@@ -21,10 +21,22 @@
 
 <img width="1305" height="437" alt="Képernyőfotó 2026-07-24 - 23 39 28" src="https://github.com/user-attachments/assets/c4c45e79-519a-49af-8363-c7fc7d3108cf" />
 
-- EC2 → Auto Scaling Groups → Create Auto Scaling group
-  - Launch template kiválasztása
+- EC2 → Auto Scaling Groups → Create Auto Scaling group - Launch template kiválasztása
+- <img width="1301" height="795" alt="Képernyőfotó 2026-07-24 - 23 43 07" src="https://github.com/user-attachments/assets/24f30a14-4623-49cf-86f4-19f8fc1c379b" />
+
   - VPC + subnetek megadása
+  - <img width="943" height="673" alt="Képernyőfotó 2026-07-24 - 23 43 26" src="https://github.com/user-attachments/assets/12cb973b-53ae-4a8e-ae49-6536243fb7d7" />
+
   - Existing load balancer target group csatolása
-  - Min/Max/Desired capacity beállítása
-  - Scaling policy beállítása
-- Create Auto Scaling group
+  - <img width="962" height="608" alt="Képernyőfotó 2026-07-24 - 23 43 44" src="https://github.com/user-attachments/assets/f51cfcac-70cc-42df-a66b-f6633244a7e8" />
+
+  - Min/Max/Desired capacity beállítása - Scaling policy beállítása
+  - <img width="927" height="628" alt="Képernyőfotó 2026-07-24 - 23 44 17" src="https://github.com/user-attachments/assets/8807a97f-a3d9-4ccb-85d2-6567f630d22e" />
+Create Auto Scaling group
+<img width="1273" height="257" alt="Képernyőfotó 2026-07-24 - 23 45 04" src="https://github.com/user-attachments/assets/02c9a16b-7757-4941-8e75-0d9f4f36daff" />
+
+Átállítottam a AS min/max-ot - elindultak a szerverek
+<img width="1070" height="439" alt="Képernyőfotó 2026-07-25 - 0 02 31" src="https://github.com/user-attachments/assets/27a9a76e-f100-4d87-8898-577097af84a7" />
+
+További még két szervert indítottam el - de itt is az a problémám hogy nem állítja le az ASG. Ha kikapcsolom akkor újra indít, az itt is működik. 
+<img width="1058" height="457" alt="Képernyőfotó 2026-07-25 - 0 03 18" src="https://github.com/user-attachments/assets/0480bb0f-2de7-490b-9498-d90a28e01c9b" />
