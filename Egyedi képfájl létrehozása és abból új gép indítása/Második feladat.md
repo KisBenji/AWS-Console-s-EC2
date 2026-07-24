@@ -18,5 +18,6 @@
 
 
 - Launch instance
-<img width="1308" height="800" alt="Képernyőfotó 2026-07-24 - 22 45 04" src="https://github.com/user-attachments/assets/f52cae7d-5400-4873-9946-0d64bd28874a" />
+<img width="1306" height="801" alt="Képernyőfotó 2026-07-24 - 22 46 35" src="https://github.com/user-attachments/assets/d32ddf40-fba7-405f-97c5-73dc8e817e9b" />
+
 
