@@ -1,7 +1,6 @@
 - Custom AMI elkészítése (lásd fentebb: instance → Create image → AMI)
 - EC2 → Launch Templates → Create launch template
 
-
   - Saját Custom AMI kiválasztása
   - Instance type, security group, key pair megadása
 - EC2 → Target Groups → Create target group (health check beállítása)
