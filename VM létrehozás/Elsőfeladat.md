@@ -1,4 +1,4 @@
-##VM létrehozás (alap)
+##VM létrehozás##
 
 - AWS Console
 - EC2
