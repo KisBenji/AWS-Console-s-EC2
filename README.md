@@ -1,1 +1,1 @@
-# AWS-Console-s-EC2
+# AWS-Console-EC2
