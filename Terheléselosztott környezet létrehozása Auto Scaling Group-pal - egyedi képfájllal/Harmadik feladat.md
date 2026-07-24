@@ -55,6 +55,6 @@ Kézzel leállítottam és az ASG újraindította
 <img width="1062" height="438" alt="Képernyőfotó 2026-07-24 - 23 14 49" src="https://github.com/user-attachments/assets/a7229147-571d-4e5a-bfe5-1ea2c6d97092" />
 
 Indítottam egy extraszervert
-<img width="1060" height="441" alt="Képernyőfotó 2026-07-24 - 23 17 46" src="https://github.com/user-attachments/assets/378dea02-8888-4c72-b9e1-d66a46ff8def" />
+<img width="1057" height="419" alt="Képernyőfotó 2026-07-24 - 23 25 09" src="https://github.com/user-attachments/assets/da9d2084-910d-4ecc-9056-f144a4258aa4" />
 
 Itt viszont nem állított le semmit az ASG. Mi lehet a hiba??
