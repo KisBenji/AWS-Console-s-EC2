@@ -1,4 +1,6 @@
 - Custom AMI elkészítése (lásd fentebb: instance → Create image → AMI)
+- <img width="1310" height="800" alt="Képernyőfotó 2026-07-24 - 22 48 20" src="https://github.com/user-attachments/assets/8df514a9-92df-4189-aa84-6e2668d9f6af" />
+
 - EC2 → Launch Templates → Create launch template
   - Saját Custom AMI kiválasztása
   - Instance type, security group, key pair megadása
