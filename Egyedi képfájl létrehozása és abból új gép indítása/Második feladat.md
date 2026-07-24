@@ -1,1 +1,8 @@
-
+- Meglévő EC2 instance kiválasztása (vagy új létrehozása, konfigurálása)
+- Actions → Image and templates → Create image
+- Image név, leírás megadása
+- Create image (AMI létrejön)
+- EC2 → AMIs menü → megvárni amíg "available" státusz
+- AMI kiválasztása → Launch instance from AMI
+- Instance type, kulcspár, subnet, security group beállítása
+- Launch instance
