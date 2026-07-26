@@ -1,8 +1,7 @@
 # VM létrehozás
 
-- AWS Console
-- EC2
-- New instance
+- AWS Console -> EC2
+New instance
 <img width="1309" height="800" alt="Képernyőfotó 2026-07-24 - 22 23 10" src="https://github.com/user-attachments/assets/27a9988f-474c-4f73-9e0b-2e365ac3a74d" />
 
 Kötelező adatok kitöltése
