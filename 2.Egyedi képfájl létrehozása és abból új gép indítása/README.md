@@ -4,7 +4,7 @@ Actions → Image and templates → Create image
 
 Image név, leírás megadása 
 Create image (AMI létrejön)
-- <img width="1308" height="798" alt="Képernyőfotó 2026-07-24 - 22 36 47" src="https://github.com/user-attachments/assets/bb4fe466-7053-4ecd-9244-94461a390a79" />
+<img width="1308" height="798" alt="Képernyőfotó 2026-07-24 - 22 36 47" src="https://github.com/user-attachments/assets/bb4fe466-7053-4ecd-9244-94461a390a79" />
 
 EC2 → AMIs menü → megvárni amíg "available" státusz
 <img width="1305" height="799" alt="Képernyőfotó 2026-07-24 - 22 39 07" src="https://github.com/user-attachments/assets/5ba2ca53-0847-4428-b59b-0aa4083adca5" />
