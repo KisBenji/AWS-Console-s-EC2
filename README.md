@@ -1,6 +1,6 @@
-# AWS virtuális gép létrehozása és ASC beállítások gyarkolása
+# AWS virtuális gép létrehozása és ASC beállítási lehetőségek
 
-AWS környezetben virtuális gép létrehozásának (EC2), majd a létrehozott gépeken terheléselosztó létrehozása és az ASC (Auto Scaling Group) beállításának bemutatása/gyakorlása. 
+AWS környezetben virtuális gép létrehozása (EC2), majd a szervereken terheléselosztó és az ASC (Auto Scaling Group) beállításának bemutatása/gyakorlása. 
 
 ### TARTALOM 
 ---
