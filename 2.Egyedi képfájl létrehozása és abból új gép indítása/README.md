@@ -1,8 +1,14 @@
-Meglévő EC2 instance kiválasztása (vagy új létrehozása, konfigurálása)
-Actions → Image and templates → Create image
+# Egyedi képfájl létrehozása és abból új gép indítása
+
+
+Az egyedi képfájlhoz a meglévő EC2 instance kiválasztjuk vagy újat is létre tudunk hozni és abból konfigurálás után a következő úton érhetjük el:
+
+`Actions → Image and templates → Create image`
+
 <img width="1309" height="794" alt="Képernyőfotó 2026-07-24 - 22 37 05" src="https://github.com/user-attachments/assets/5fb315a4-aa93-4327-b49d-e7ae324bc3d3" />
 
-Image név, leírás megadása 
+Kötelező adatok megadása következik.
+Image name : 
 Create image (AMI létrejön)
 <img width="1308" height="798" alt="Képernyőfotó 2026-07-24 - 22 36 47" src="https://github.com/user-attachments/assets/bb4fe466-7053-4ecd-9244-94461a390a79" />
 
