@@ -3,7 +3,7 @@
 
 Az egyedi képfájlhoz a meglévő EC2 instance kiválasztjuk vagy újat is létre tudunk hozni és abból konfigurálás után a következő úton érhetjük el:
 
-`Actions → Image and templates → Create image
+`Actions → Image and templates → Create image`
 
 <img width="1309" height="794" alt="Képernyőfotó 2026-07-24 - 22 37 05" src="https://github.com/user-attachments/assets/5fb315a4-aa93-4327-b49d-e7ae324bc3d3" />
 
