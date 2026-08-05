@@ -1,15 +1,34 @@
-Custom AMI elkészítése (lásd fentebb: instance → Create image → AMI)
+# Terheléselosztott környezet létrehozása Auto Scaling Group-pal - egyedi képfájllal
+
+Az előző munkafolyamatban leírtak szerint képfájlból dolgozva egy AMI-t készítünk.
+
+Ennek a neve: <mark>3.feladat</mark>
+
 <img width="1310" height="800" alt="Képernyőfotó 2026-07-24 - 22 48 20" src="https://github.com/user-attachments/assets/8df514a9-92df-4189-aa84-6e2668d9f6af" />
 
-EC2 → Launch Templates → Create launch template
+Amint elkészültünk az AMI-val az EC2 → Launch Templates → Create launch template soron 
+
+Ennek a neve: <mark>1stTamplate</mark>
+
 <img width="1303" height="793" alt="Képernyőfotó 2026-07-24 - 22 52 53" src="https://github.com/user-attachments/assets/0a6a95f4-8fd5-4509-a549-8bf1736b3038" />
 
-Saját Custom AMI kiválasztása
+Ezután kiválaszthatjuk az előbb elkészített AMI-t - <mark>3.feladat</mark>
+
 <img width="1306" height="801" alt="Képernyőfotó 2026-07-24 - 22 53 15" src="https://github.com/user-attachments/assets/7b79c9ef-d8d5-4e8c-8f8b-420d7762fb60" />
 
-Instance type, security group, key pair megadása
+Instance típusa szintén a <mark>t3.micro</mark>
+
+Security beállatások a korábban generált beállítást használom, hogy az internet felől elérhető legyen.
+
+Key pair <mark>kulcs-2026</mark>
+
 <img width="1300" height="801" alt="Képernyőfotó 2026-07-24 - 22 53 50" src="https://github.com/user-attachments/assets/e629738b-4296-4a41-8f31-7b2fab44aa24" />
-<img width="1303" height="794" alt="Képernyőfotó 2026-07-24 - 22 54 16" src="https://github.com/user-attachments/assets/b07dc641-1590-495c-9fcd-23e5553f66eb" /><img width="1309" height="805" alt="Képernyőfotó 2026-07-24 - 22 54 47" src="https://github.com/user-attachments/assets/eae03f38-418c-4b0f-80b7-533fa7036b9f" />
+
+<img width="1303" height="794" alt="Képernyőfotó 2026-07-24 - 22 54 16" src="https://github.com/user-attachments/assets/b07dc641-1590-495c-9fcd-23e5553f66eb" />
+
+A megadot adatok után már rá is kattinthatunk a Create launch template
+
+<img width="1309" height="805" alt="Képernyőfotó 2026-07-24 - 22 54 47" src="https://github.com/user-attachments/assets/eae03f38-418c-4b0f-80b7-533fa7036b9f" />
 
 EC2 → Target Groups → Create target group
 <img width="1308" height="805" alt="Képernyőfotó 2026-07-24 - 22 55 19" src="https://github.com/user-attachments/assets/eaf5c104-0ccb-4128-93df-e9d0376d69d2" />
