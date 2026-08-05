@@ -31,7 +31,8 @@ További adatok megadásánál, mint az előző munkafolyamatban ki lehet válas
 
 Kulcspár esetén a mentett korábban használt vagy újonnan generált kulcs megadását kiválasztjuk.
 
-Subnet esetén az elérhetőségnél kiválasztunk egy másik zónát a korábbitól eltérően. Ennek oka a magas rendelkezésre állás `High Availability` illetve a következő feladnak előkészítve a terheléselosztó is két zóna között tudja elosztani a forgalmat és így a túlterhelést kockáztatva. 
+Subnet esetén az elérhetőségnél kiválasztunk egy másik zónát a korábbitól eltérően. Ennek oka a magas rendelkezésre állás 
+`High Availability` illetve ha e két szerver mögé egy terheléselosztót teszünk akkor is a két zóna között tudja elosztani a forgalmat és így a túlterhelést kockázatát csökkentve. 
 
 Security group esetén a meglévő beállítást kiválasztom, hogy az internet felől elérhető legyen. Itt megadható új beállítás is, igény szerint.
 
