@@ -1,6 +1,6 @@
 # Virtuális gép (EC2) létrehozása AWS felületén
 
-AWS Console bejelentkezés után meg kell keresnünk az -> EC2, amire kattintva elérhető a `New instance`, amivel megtudjuk kezdeni a virtuális gépünk konfigurálását. 
+AWS Console bejelentkezés után meg kell keresnünk az -> EC2, amire kattintva elérhető a `New instance`. Itt tudjuk megkezdeni a virtuális gépünk konfigurálását. 
 
 Kötelező adatok megadása:
 
@@ -14,10 +14,9 @@ A szerver típusa, ahol a példához elegendő teljesítményű és ingyenes ver
 
 A kulcs megadása kötelező, ezt előzetesen generáltam és letöltöttem a gépemre <mark>kulcs-2026</mark> 
 
-Amennyiben még nincs kulcsod, itt tudsz generálni is. 
+Amennyiben még nincs kulcsod, itt tudsz generálni is. `Create a new key pair`
 
 <img width="1309" height="800" alt="Képernyőfotó 2026-07-24 - 22 23 26" src="https://github.com/user-attachments/assets/bde1eb70-31f8-46e2-8839-64b5e7a29b17" />
-
 
 
 Security beállításoknál létre lehet hozni új alapbeállítást. Itt, hogy a szerver elérhető legyen az internet felől javasolt a `Allow HTTP traffic from internet` lehetőséget engedélyezni. 
@@ -25,7 +24,7 @@ Security beállításoknál létre lehet hozni új alapbeállítást. Itt, hogy 
 <img width="1305" height="800" alt="Képernyőfotó 2026-07-24 - 22 24 52" src="https://github.com/user-attachments/assets/a47188fd-2af4-4c79-88c6-50c75ae86599" />
 
 
-Az Advanced részben a User Data script megadásánál írhatunk be kódot ha telepíteni szeretnénk valamit induláskor. Ebbe a kódba belemódosítottam a példa készítésekor, hogy névként a <mark>1stWebserver</mark> jelenjen meg. Az eredeti itt található és másolható ki:
+Az Advanced részben a User Data script megadásánál írhatunk be kódot ha telepíteni szeretnénk valamit induláskor. Itt a meglévő kódba belemódosítottam a példa készítésekor, hogy névként a <mark>1stWebserver</mark> jelenjen meg. Az eredeti itt található és másolható ki:
 
 ```
 #!/bin/bash
