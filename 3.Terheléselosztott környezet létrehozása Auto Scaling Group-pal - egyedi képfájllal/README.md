@@ -47,10 +47,24 @@ A következő lépésben létre kell hozni a terheléselosztót, amihez hozzá k
 
 Ehhez a következő menüsoron jutunk el: `EC2 → Load Balancers → Create load balancer (ALB/NLB)` 
 
+Név: <mark>1stLB</mark>
+
 <img width="1307" height="802" alt="Képernyőfotó 2026-07-24 - 22 58 09" src="https://github.com/user-attachments/assets/2afb3efb-0178-442b-8a58-c62aa6586a78" />
+
+A magas rendelkezésre álláshoz több subnetet - elérhetőségi zónát választunk ki:
+
 <img width="1306" height="797" alt="Képernyőfotó 2026-07-24 - 22 58 33" src="https://github.com/user-attachments/assets/aef3a39a-3d71-43d3-8853-5ab9dc7fb60a" />
+
+Security beállítások a korábban beállítottak kiválasztása:
+
 <img width="1307" height="330" alt="Képernyőfotó 2026-07-24 - 22 58 54" src="https://github.com/user-attachments/assets/9d03ed8e-5aea-4e6a-bc77-df97b12110ee" />
+
+Célcsoport hozzárendelése a következő lépés, hogy melyik szerverekre küldjön kérést. Itt a korábban létrehozott <mark>1stTG</mark> rendeljük hozzá.
+
 <img width="1306" height="661" alt="Képernyőfotó 2026-07-24 - 22 59 13" src="https://github.com/user-attachments/assets/7a46c0ac-5c2d-4bae-9bcb-57ce8db1275f" />
+
+Az adatok megadása és célcsoport hozzáadása után létrehozhatjuk az első terheléselosztónkat.
+
 <img width="1309" height="800" alt="Képernyőfotó 2026-07-24 - 23 02 14" src="https://github.com/user-attachments/assets/f8432297-348e-4725-b0e3-a406a4eaac3e" />
 
 EC2 → Auto Scaling Groups → Create Auto Scaling group
