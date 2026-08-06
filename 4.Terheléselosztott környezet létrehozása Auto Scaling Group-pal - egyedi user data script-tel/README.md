@@ -41,6 +41,7 @@ Itt is létrehozunk egy ASG-t. A korábban már bejárt: `EC2 → Auto Scaling G
 <img width="1301" height="795" alt="Képernyőfotó 2026-07-24 - 23 43 07" src="https://github.com/user-attachments/assets/24f30a14-4623-49cf-86f4-19f8fc1c379b" />
 
 Subnetek megadásakor a korábban eljártak szerint több rendelkezésre álló zónát jelölünk ki a magas elérhetőség kedvéért.
+Ha az egyikben nem sikerülne indítani egy gépet, úgy egy másikban teszi meg.
 
 <img width="943" height="673" alt="Képernyőfotó 2026-07-24 - 23 43 26" src="https://github.com/user-attachments/assets/12cb973b-53ae-4a8e-ae49-6536243fb7d7" />
 
@@ -56,12 +57,10 @@ A beállítások után már létre is hozhatjuk az új ASG-t a `Create Auto Scal
 
 <img width="1273" height="257" alt="Képernyőfotó 2026-07-24 - 23 45 04" src="https://github.com/user-attachments/assets/02c9a16b-7757-4941-8e75-0d9f4f36daff" />
 
-Átállítottam a AS min/max-ot - elindultak a szerverek
+Átállítottam a min/max-ot - elindultak a szerverek
 <img width="1070" height="439" alt="Képernyőfotó 2026-07-25 - 0 02 31" src="https://github.com/user-attachments/assets/27a9a76e-f100-4d87-8898-577097af84a7" />
 
-További még két szervert indítottam el - de itt is az a problémám hogy nem állítja le az ASG. 
-Hamarosan kép érkezik még!!!
+Ha kikapcsolom manuálisan a szervereket akkor az ASG automatikusan újraindítja a megfelelő számút, hogy elérje a desired capacityt.
 
-Ha kikapcsolom akkor újra indít, az itt is működik. 
 <img width="1043" height="278" alt="Képernyőfotó 2026-07-25 - 0 13 20" src="https://github.com/user-attachments/assets/a1bd9527-7548-414f-84df-28f1b3061cab" />
 
