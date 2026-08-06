@@ -119,7 +119,6 @@ Kézzel leállítottam egyet és az ASG újraindította azt.
 
 <img width="1062" height="438" alt="Képernyőfotó 2026-07-24 - 23 14 49" src="https://github.com/user-attachments/assets/a7229147-571d-4e5a-bfe5-1ea2c6d97092" />
 
-Indítottam egy extraszervert is amelyet később az ASG egy másik leállításával korrigál. 
+A beállításokban a maximum desired capacity visszavételével az ASG több szerver leállításával korrigál. 
 
-<img width="1057" height="419" alt="Képernyőfotó 2026-07-24 - 23 25 09" src="https://github.com/user-attachments/assets/da9d2084-910d-4ecc-9056-f144a4258aa4" />
-
+<img width="857" height="63" alt="Képernyőfotó 2026-08-06 - 14 48 12" src="https://github.com/user-attachments/assets/52415375-11fa-430f-ad11-7a97dc4834db" />
