@@ -6,7 +6,7 @@ Ennek a neve: <mark>3.feladat</mark>
 
 <img width="1310" height="800" alt="Képernyőfotó 2026-07-24 - 22 48 20" src="https://github.com/user-attachments/assets/8df514a9-92df-4189-aa84-6e2668d9f6af" />
 
-Amint elkészültünk az AMI-val az `EC2 → Launch Templates → Create launch template` soron 
+Amint elkészültünk az AMI-val az `EC2 → Launch Templates → Create launch template` soron tudjuk indítani a mintát és konfigurálását. 
 
 Ennek a neve: <mark>1stTamplate</mark>
 
