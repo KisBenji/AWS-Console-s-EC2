@@ -1,4 +1,4 @@
-# Terheléselosztott környezet létrehozása Auto Scaling Group-pal - egyedi képfájllal
+# Terheléselosztott környezet létrehozása Auto Scaling Group-al - egyedi képfájllal
 
 Az előző munkafolyamatban leírtak szerint képfájlból dolgozva egy AMI-t készítünk.
 
