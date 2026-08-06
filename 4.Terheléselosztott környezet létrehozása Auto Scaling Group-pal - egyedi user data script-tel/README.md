@@ -1,4 +1,4 @@
-# Terheléselosztott környezet létrehozása Auto Scaling Group-pal - egyedi user data script-tel
+# Terheléselosztott környezet létrehozása Auto Scaling Group-al - egyedi user data script-tel
 
 Ebben a fejezetben szintén úgy kezdjük, ahogy korábbi példában az `EC2 → Launch Templates → Create launch template` vonalon.
 
