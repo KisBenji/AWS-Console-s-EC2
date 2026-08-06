@@ -34,6 +34,8 @@ Ezután célcsoportot hozunk létre a `EC2 → Target Groups → Create target g
 
 Név: <mark>1stTG</mark>
 
+Instance opciót választottam, hogy az ASG tudja kezelni a szervereket. 
+
 <img width="1308" height="805" alt="Képernyőfotó 2026-07-24 - 22 55 19" src="https://github.com/user-attachments/assets/eaf5c104-0ccb-4128-93df-e9d0376d69d2" />
 
 Health check beállítása. Itt az alapbeállítást használtam, de konfigurálni lehet, hogy hány másodpercenként küldjön kérést a szerverre. 
