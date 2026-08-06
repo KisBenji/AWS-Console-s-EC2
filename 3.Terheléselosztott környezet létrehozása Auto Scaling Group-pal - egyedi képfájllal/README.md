@@ -26,14 +26,15 @@ Key pair <mark>kulcs-2026</mark>
 
 <img width="1303" height="794" alt="Képernyőfotó 2026-07-24 - 22 54 16" src="https://github.com/user-attachments/assets/b07dc641-1590-495c-9fcd-23e5553f66eb" />
 
-A megadot adatok után már rá is kattinthatunk a Create launch template
+A megadot adatok után már rá is kattinthatunk a `Create launch template`
 
 <img width="1309" height="805" alt="Képernyőfotó 2026-07-24 - 22 54 47" src="https://github.com/user-attachments/assets/eae03f38-418c-4b0f-80b7-533fa7036b9f" />
 
-EC2 → Target Groups → Create target group
+Ezután célcsoportot hozunk létre a `EC2 → Target Groups → Create target group`, hogy a terheléselosztó később tudja melyik szerverre irányítsa a forgalmat.
+
 <img width="1308" height="805" alt="Képernyőfotó 2026-07-24 - 22 55 19" src="https://github.com/user-attachments/assets/eaf5c104-0ccb-4128-93df-e9d0376d69d2" />
 
-Health check beállítása
+Health check beállítása. Itt az alapbeállítást használtam, de konfigurálni lehet, hogy hány másodpercenként küldjön kérést a szerverre. 
 <img width="1307" height="797" alt="Képernyőfotó 2026-07-24 - 22 56 01" src="https://github.com/user-attachments/assets/45fac1af-8db3-471f-9ac0-ac4b84a74930" />
 <img width="1305" height="801" alt="Képernyőfotó 2026-07-24 - 22 57 35" src="https://github.com/user-attachments/assets/85257a44-bf00-4a9b-9ba8-6fd16a959ad7" />
 
