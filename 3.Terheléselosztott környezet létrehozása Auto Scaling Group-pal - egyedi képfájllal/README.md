@@ -100,7 +100,7 @@ Min/Max/Desired capacity beállítása választásánál konfigurálhatjuk, hogy
 Scaling policy beállítása
 <img width="1304" height="499" alt="Képernyőfotó 2026-07-24 - 23 10 08" src="https://github.com/user-attachments/assets/86a83f06-2356-4a5b-bc06-4e4e9a6494ac" />
 
-`Create Auto Scaling group` kattintva létre is hozzuk az első ASG-t. 
+`Create Auto Scaling group` kattintva létre is hozzuk az első ASG-t. A minimumot a konfiguráció esetén 3-ra állítottam és itt látszik is, hogy 3/3 healty rendelkezésre áll.
 
 
 <img width="1309" height="470" alt="Képernyőfotó 2026-07-24 - 23 10 53" src="https://github.com/user-attachments/assets/8215c6f9-6741-45c3-b41b-53709cb9a08b" />
