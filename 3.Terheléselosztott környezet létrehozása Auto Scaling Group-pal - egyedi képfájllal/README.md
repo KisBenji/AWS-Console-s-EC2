@@ -32,13 +32,21 @@ A megadot adatok után már rá is kattinthatunk a `Create launch template`
 
 Ezután célcsoportot hozunk létre a `EC2 → Target Groups → Create target group`, hogy a terheléselosztó később tudja melyik szerverre irányítsa a forgalmat.
 
+Név: <mark>1stTG</mark>
+
 <img width="1308" height="805" alt="Képernyőfotó 2026-07-24 - 22 55 19" src="https://github.com/user-attachments/assets/eaf5c104-0ccb-4128-93df-e9d0376d69d2" />
 
 Health check beállítása. Itt az alapbeállítást használtam, de konfigurálni lehet, hogy hány másodpercenként küldjön kérést a szerverre. 
 <img width="1307" height="797" alt="Képernyőfotó 2026-07-24 - 22 56 01" src="https://github.com/user-attachments/assets/45fac1af-8db3-471f-9ac0-ac4b84a74930" />
+
+Az adatok megadása után létre is jön az első célcsoportunk.
+
 <img width="1305" height="801" alt="Képernyőfotó 2026-07-24 - 22 57 35" src="https://github.com/user-attachments/assets/85257a44-bf00-4a9b-9ba8-6fd16a959ad7" />
 
-EC2 → Load Balancers → Create load balancer (ALB/NLB) → target group hozzárendelése
+A következő lépésben létre kell hozni a terheléselosztót, amihez hozzá kell rendelnünk az előbb létrehozott célcsoportot.
+
+Ehhez a következő menüsoron jutunk el: `EC2 → Load Balancers → Create load balancer (ALB/NLB)` 
+
 <img width="1307" height="802" alt="Képernyőfotó 2026-07-24 - 22 58 09" src="https://github.com/user-attachments/assets/2afb3efb-0178-442b-8a58-c62aa6586a78" />
 <img width="1306" height="797" alt="Képernyőfotó 2026-07-24 - 22 58 33" src="https://github.com/user-attachments/assets/aef3a39a-3d71-43d3-8853-5ab9dc7fb60a" />
 <img width="1307" height="330" alt="Képernyőfotó 2026-07-24 - 22 58 54" src="https://github.com/user-attachments/assets/9d03ed8e-5aea-4e6a-bc77-df97b12110ee" />
