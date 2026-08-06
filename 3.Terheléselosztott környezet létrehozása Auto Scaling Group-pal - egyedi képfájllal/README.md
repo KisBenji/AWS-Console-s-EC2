@@ -63,27 +63,46 @@ Célcsoport hozzárendelése a következő lépés, hogy melyik szerverekre kül
 
 <img width="1306" height="661" alt="Képernyőfotó 2026-07-24 - 22 59 13" src="https://github.com/user-attachments/assets/7a46c0ac-5c2d-4bae-9bcb-57ce8db1275f" />
 
-Az adatok megadása és célcsoport hozzáadása után létrehozhatjuk az első terheléselosztónkat.
+Az adatok megadása és célcsoport hozzáadása után létrehozhatjuk az első terheléselosztónkat. 
+
+<mark>1stLB</mark>
 
 <img width="1309" height="800" alt="Képernyőfotó 2026-07-24 - 23 02 14" src="https://github.com/user-attachments/assets/f8432297-348e-4725-b0e3-a406a4eaac3e" />
 
-EC2 → Auto Scaling Groups → Create Auto Scaling group
-Launch template kiválasztása
+Ha már mindennel kész vagyunk akkor az utolsó lépésben létrehozhatunk egy ASG (Auto Scaling Group) a következő menüsoron: 
+
+`EC2 → Auto Scaling Groups → Create Auto Scaling group`
+
+Az ASG fogja nekünk felügyelni, hogy a szerverek rendben működnek és igény esetén ki és vagy leállítja őket. 
+
+A konfiguráció első lépésében elnevezzük: <mark>1stAS</mark>
+
+Launch template kiválasztásánál hozzá rendeljük a korábban létrehozottat <mark>1stTemplate</mark>
+
 <img width="1305" height="800" alt="Képernyőfotó 2026-07-24 - 23 08 25 1" src="https://github.com/user-attachments/assets/d1c49fba-292e-40a6-b1d5-9c40729bcdb4" />
 
-VPC + subnetek megadása
+VPC esetén alapbeállítást használunk - nyilvánosan elérhető
+
+Kiválasztjuk a rendelkezésre álló zónákat, itt megint a több kiválasztása esetén a magas rendelkezésre állást tudjuk támogatni:
+
 <img width="1311" height="805" alt="Képernyőfotó 2026-07-24 - 23 08 56" src="https://github.com/user-attachments/assets/d59d2833-e865-44ec-815e-14badf87ad8f" />
 
-Existing load balancer target group csatolása
+A meglévő és eddig felépített terheléselosztót hozzá rendeljük az ASG-hez.
+
+`Existing load balancer target group` csatolása
+
 <img width="1308" height="799" alt="Képernyőfotó 2026-07-24 - 23 09 27" src="https://github.com/user-attachments/assets/dda05521-2a63-47bb-9b16-a9991e8039a2" />
 
-Min/Max/Desired capacity beállítása
+Min/Max/Desired capacity beállítása választásánál konfigurálhatjuk, hogy mennyi minimum szervert szeretnénk működtetni
+
 <img width="1309" height="680" alt="Képernyőfotó 2026-07-24 - 23 09 54" src="https://github.com/user-attachments/assets/68ff33fe-02cc-4993-bbfa-cfff983a60f1" />
 
 Scaling policy beállítása
 <img width="1304" height="499" alt="Képernyőfotó 2026-07-24 - 23 10 08" src="https://github.com/user-attachments/assets/86a83f06-2356-4a5b-bc06-4e4e9a6494ac" />
 
-Create Auto Scaling group
+`Create Auto Scaling group` kattintva létre is hozzuk az első ASG-t. 
+
+
 <img width="1309" height="470" alt="Képernyőfotó 2026-07-24 - 23 10 53" src="https://github.com/user-attachments/assets/8215c6f9-6741-45c3-b41b-53709cb9a08b" />
 
 
