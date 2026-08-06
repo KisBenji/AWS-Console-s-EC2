@@ -1,6 +1,8 @@
 # Terheléselosztott környezet létrehozása Auto Scaling Group-pal - egyedi user data script-tel
 
-Ebben a fejezetben úgy kezdjük, ahogy korábban az EC2 → Launch Templates → Create launch template soron. 
+Ebben a fejezetben szintén úgy kezdjük, ahogy korábbi példában az EC2 → Launch Templates → Create launch template vonalon.
+
+Név: <mark>4.feladat</mark> 
 
 <img width="1305" height="804" alt="Képernyőfotó 2026-07-24 - 23 30 02" src="https://github.com/user-attachments/assets/0585c878-17dd-40ee-b556-5e9e6e498fc5" />
 
