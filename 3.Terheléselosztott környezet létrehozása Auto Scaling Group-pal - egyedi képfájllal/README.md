@@ -67,7 +67,7 @@ Célcsoport hozzárendelése a következő lépés, hogy melyik szerverekre kül
 
 Az adatok megadása és célcsoport hozzáadása után létrehozhatjuk az első terheléselosztónkat. 
 
-<mark>1stLB</mark>
+Név: <mark>1stLB</mark>
 
 <img width="1309" height="800" alt="Képernyőfotó 2026-07-24 - 23 02 14" src="https://github.com/user-attachments/assets/f8432297-348e-4725-b0e3-a406a4eaac3e" />
 
@@ -95,11 +95,11 @@ A meglévő és eddig felépített terheléselosztót hozzá rendeljük az ASG-h
 
 <img width="1308" height="799" alt="Képernyőfotó 2026-07-24 - 23 09 27" src="https://github.com/user-attachments/assets/dda05521-2a63-47bb-9b16-a9991e8039a2" />
 
-Min/Max/Desired capacity beállítása választásánál konfigurálhatjuk, hogy mennyi minimum szervert szeretnénk működtetni
+Min/Max/Desired capacity beállítása választásánál konfigurálhatjuk, hogy mennyi a kívánt/minimum/maximum szerver szám, amit szeretnénk működtetni.
 
 <img width="1309" height="680" alt="Képernyőfotó 2026-07-24 - 23 09 54" src="https://github.com/user-attachments/assets/68ff33fe-02cc-4993-bbfa-cfff983a60f1" />
 
-Scaling policy beállítása
+Scaling policy beállítása. 
 <img width="1304" height="499" alt="Képernyőfotó 2026-07-24 - 23 10 08" src="https://github.com/user-attachments/assets/86a83f06-2356-4a5b-bc06-4e4e9a6494ac" />
 
 `Create Auto Scaling group` kattintva létre is hozzuk az első ASG-t. A minimumot a konfiguráció esetén 3-ra állítottam és itt látszik is, hogy 3/3 healty rendelkezésre áll.
@@ -108,12 +108,17 @@ Scaling policy beállítása
 <img width="1309" height="470" alt="Képernyőfotó 2026-07-24 - 23 10 53" src="https://github.com/user-attachments/assets/8215c6f9-6741-45c3-b41b-53709cb9a08b" />
 
 
-Skálázási beállítások gyakorlása. Állíts le szervert kézzel és figyeld meg, hogy az ASG újraindítja-e a leállított gépet. Indíts el több gépet, és figyeld meg, hogy az ASG leállítja-e a felesleges gépeket.
-Létrejöttek szerverek
+Skálázási beállítások gyakorlása. Itt a jobban láthatóság kedvéért felemeltem a minimum szerverek számát.
+
+Létrejöttek a kívánt mennyiségű szerverek:
+
 <img width="1067" height="444" alt="Képernyőfotó 2026-07-24 - 23 13 57" src="https://github.com/user-attachments/assets/b150b1cc-4740-4291-a8cb-76bce97e99da" />
-Kézzel leállítottam és az ASG újraindította
+
+Kézzel leállítottam egyet és az ASG újraindította azt.
+
 <img width="1062" height="438" alt="Képernyőfotó 2026-07-24 - 23 14 49" src="https://github.com/user-attachments/assets/a7229147-571d-4e5a-bfe5-1ea2c6d97092" />
 
-Indítottam egy extraszervert
+Indítottam egy extraszervert is amelyet később az ASG egy másik leállításával korrigál. 
+
 <img width="1057" height="419" alt="Képernyőfotó 2026-07-24 - 23 25 09" src="https://github.com/user-attachments/assets/da9d2084-910d-4ecc-9056-f144a4258aa4" />
 
